@@ -935,7 +935,6 @@
 				"meta.parameters",
 				"meta.function-call.arguments",
 				"markup.inline.raw.string.markdown",
-				"string"
 			],
 			"settings": {
 				"foreground": "#d38833"
@@ -1067,19 +1066,19 @@
 			}
 		},
 		{
-			"scope": [],
+			"scope": "string",
 			"settings": {
-				"foreground": "#86DBFD",
+				"foreground": "#9f71e9",
 				"fontStyle": "italic"
 			}
 		},
 		{
 			"scope": [
 				"comment",
-				"markup.quote"
+				"markup.quote",
 			],
 			"settings": {
-				"foreground": "#6272A4",
+				"foreground": "#24a83a",
 				"fontStyle": "italic"
 			}
 		},
