@@ -1,0 +1,21 @@
+{
+  "name": "crimson-void",
+  "displayName": "Crimson Void",
+  "description": "\"A sleek and modern theme blending deep black with striking crimson accents. Perfect for those who seek an elegant, focused, and powerful coding environment.\"",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "CrimsonV",
+        "uiTheme": "vs-dark",
+        "path": "./themes/CrimsonV-color-theme.json"
+      }
+    ]
+  }
+}
