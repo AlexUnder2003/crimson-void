@@ -3,8 +3,7 @@
   "displayName": "Crimson Void",
   "publisher": "jackednerdalexunder2003",
   "description": "\"A sleek and modern theme blending deep black with striking crimson accents. Perfect for those who seek an elegant, focused, and powerful coding environment.\"",
-  "version": "1.0.0",
-  "icon": "logo.jpg",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.80.0"
   },

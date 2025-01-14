@@ -108,8 +108,8 @@
 		"editorWidget.border": "#b53241",
 		"focusBorder": "#1e211f",
 		"foreground": "#d2d2d2",
-		"gitDecoration.ignoredResourceForeground": "#526f69",
-		"gitDecoration.modifiedResourceForeground": "#b53241",
+		//"gitDecoration.ignoredResourceForeground": "#797e7d",
+		//"gitDecoration.modifiedResourceForeground": "#b53241",
 		"input.background": "#191b1aaa",
 		"input.border": "#1e211f",
 		"input.placeholderForeground": "#7da1c2",
@@ -163,7 +163,7 @@
 		"quickInput.list.focusBackground": "#25435aaa",
 		"scrollbar.shadow": "#1111113a",
 		"scrollbarSlider.activeBackground": "#b532419a",
-		"scrollbarSlider.background": "#b532415a",
+		//"scrollbarSlider.background": "#b532415a",
 		"scrollbarSlider.hoverBackground": "#b532419a",
 		"searchEditor.findMatchBackground": "#6b232d",
 		"selection.background": "#25435a",
@@ -201,7 +201,7 @@
 		"tab.hoverBackground": "#242626aa",
 		"tab.inactiveBackground": "#191b1f",
 		"terminal.ansiBlue": "#9b6bdf",
-		"terminal.ansiCyan": "#75d7ec",
+		"terminal.ansiCyan": "#5cc8e0",
 		"terminal.ansiGreen": "#f44747",
 		"terminal.ansiMagenta": "#e64747",
 		"terminal.ansiRed": "#e356a7",
@@ -857,11 +857,12 @@
 		},
 		{
 			"scope": [
-				"invalid"
+				"invalid",
+				"invalid.illegal",
 			],
 			"settings": {
-				"foreground": "#F44747",
-				"fontStyle": "underline strikethrough"
+				"foreground": "#ff0000",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -875,10 +876,12 @@
 		},
 		{
 			"scope": [
-				"markup.underline"
+				"markup.underline",
+				"markup.heading",
 			],
 			"settings": {
-				"fontStyle": "underline"
+				"fontStyle": "underline",
+				"foreground": "#e95757",
 			}
 		},
 		{
@@ -989,7 +992,7 @@
 				"punctuation.definition.typeparameters"
 			],
 			"settings": {
-				"foreground": "#e71f7c"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -1060,7 +1063,7 @@
 				"entity.name.section.markdown"
 			],
 			"settings": {
-				"foreground": "#86DBFD"
+				"foreground": "#99c3d3"
 			}
 		},
 		{
@@ -1097,7 +1100,7 @@
 		{
 			"scope": "token.info-token",
 			"settings": {
-				"foreground": "#6796E6"
+				"foreground": "#3f557a"
 			}
 		},
 		{
