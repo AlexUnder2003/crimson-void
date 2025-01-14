@@ -1,21 +1,25 @@
 {
   "name": "crimson-void",
   "displayName": "Crimson Void",
+  "publisher": "jackednerdalexunder2003",
   "description": "\"A sleek and modern theme blending deep black with striking crimson accents. Perfect for those who seek an elegant, focused, and powerful coding environment.\"",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "icon": "logo.jpg",
   "engines": {
-    "vscode": "^1.96.0"
+    "vscode": "^1.80.0"
   },
-  "categories": [
-    "Themes"
-  ],
+  "categories": ["Themes"],
   "contributes": {
     "themes": [
       {
-        "label": "CrimsonV",
+        "label": "Crimson Void",
         "uiTheme": "vs-dark",
         "path": "./themes/CrimsonV-color-theme.json"
       }
     ]
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/AlexUnder2003/crimson-void"
   }
 }

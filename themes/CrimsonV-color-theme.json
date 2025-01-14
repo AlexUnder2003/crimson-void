@@ -2,7 +2,7 @@
 {
     "name": "CrimsonV",
     "colors": {
-		"activityBar.background": "#171918",
+		"activityBar.background": "#28292b",
 		"activityBar.border": "#1e211f",
 		"activityBar.foreground": "#f44747",
 		"activityBar.inactiveForeground": "#838282",
@@ -12,6 +12,8 @@
 		"badge.foreground": "#ffffff",
 		"breadcrumb.focusForeground": "#f44747",
 		"breadcrumb.foreground": "#ffffff",
+		"breadcrumb.background": "#202020",
+		"sideBar.foreground": "#D4D4D4", // Цвет текста на боковой панели
 		"button.background": "#212122",
 		"button.foreground": "#bbbbbb",
 		"button.secondaryBackground": "#212122cc",
@@ -56,7 +58,7 @@
 		"dropdown.background": "#191b1f",
 		"dropdown.border": "#1e211f",
 		"dropdown.foreground": "#d2d2d2",
-		"editor.background": "#191b1f",
+		"editor.background": "#28292b",
 		"editor.findMatchBackground": "#504d4d00",
 		"editor.findMatchBorder": "#f44747",
 		"editor.findMatchHighlightBackground": "#6b232daa",
@@ -81,7 +83,7 @@
 		"editorBracketMatch.border": "#b53241",
 		"editorCursor.background": "#191b1f",
 		"editorCursor.foreground": "#ffffff",
-		"editorError.foreground": "#00d9ff",
+		"editorError.foreground": "#d83838",
 		"editorGroup.border": "#1e211f",
 		"editorGroup.dropBackground": "#1b2932aa",
 		"editorGroupHeader.tabsBackground": "#191b1f",
@@ -104,7 +106,6 @@
 		"editorWarning.border": "#1e211f",
 		"editorWidget.background": "#131514",
 		"editorWidget.border": "#b53241",
-		"errorForeground": "#f44747",
 		"focusBorder": "#1e211f",
 		"foreground": "#d2d2d2",
 		"gitDecoration.ignoredResourceForeground": "#526f69",
@@ -169,16 +170,16 @@
 		"settings.focusedRowBackground": "#242626",
 		"settings.modifiedItemIndicator": "#b53241",
 		"settings.sashBorder": "#1e211f",
-		"sideBar.background": "#191b1f",
+		"sideBar.background": "#202020",
 		"sideBar.border": "#1e211f",
-		"sideBarSectionHeader.background": "#171918",
-		"statusBar.background": "#c92020",
+		"sideBarSectionHeader.background": "#262727",
+		"statusBar.background": "#202020",
 		"statusBar.border": "#1e211f",
 		"statusBar.debuggingBackground": "#b53241",
 		"statusBar.noFolderBackground": "#b53241",
 		"statusBarItem.prominentBackground": "#25435aaa",
 		"statusBarItem.prominentForeground": "#ffffff",
-		"statusBarItem.remoteBackground": "#25435a",
+		"statusBarItem.remoteBackground": "#d32f2f",
 		"statusBarItem.remoteForeground": "#ffffff",
 		"symbolIcon.arrayForeground": "#86dbfd",
 		"symbolIcon.booleanForeground": "#788a8b",
@@ -934,7 +935,7 @@
 				"string"
 			],
 			"settings": {
-				"foreground": "#67d1b6"
+				"foreground": "#d38833"
 			}
 		},
 		{
@@ -957,7 +958,7 @@
 				"punctuation.definition.raw.markdown"
 			],
 			"settings": {
-				"foreground": "#788A8B"
+				"foreground": "#abb0b1"
 			}
 		},
 		{
@@ -974,7 +975,7 @@
 				"variable.other.readwrite.alias"
 			],
 			"settings": {
-				"foreground": "#6AADFF"
+				"foreground": "#f8fbff"
 			}
 		},
 		{
@@ -988,7 +989,7 @@
 				"punctuation.definition.typeparameters"
 			],
 			"settings": {
-				"foreground": "#89C0D9"
+				"foreground": "#e71f7c"
 			}
 		},
 		{
@@ -1023,7 +1024,6 @@
 		{
 			"scope": [
 				"meta.function-call",
-				"meta.decorator",
 				"meta.link",
 				"meta.method-call",
 				"meta.function-call.ts",

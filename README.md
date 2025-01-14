@@ -1,16 +1,27 @@
-# crimson-void README
+# Crimson Void Theme
 
-## Working with Markdown
+**Crimson Void** — элегантная тема для Visual Studio Code с тёмным фоном и красными акцентами. Создана для тех, кто ценит минимализм и контраст.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Установка
+1. Откройте Visual Studio Code.
+2. Перейдите в `Extensions` (Ctrl+Shift+X).
+3. Найдите "Crimson Void" и установите.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## Особенности
+- Черный фон для комфортной работы в темное время суток.
+- Красные акценты для ключевых элементов.
+- Белый текст для высокой читаемости.
+- Гибкая поддержка различных языков программирования.
 
-## For more information
+## Скриншоты
+![JSON](image-1.png)
+![Python](image.png)
+![Theme](image-2.png)
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Участие в проекте
+Если у вас есть идеи по улучшению темы, не стесняйтесь открыть issue или внести свой вклад через pull request.
 
+## Лицензия
+Этот проект лицензирован под [MIT License](LICENSE).
 **Enjoy!**
+
