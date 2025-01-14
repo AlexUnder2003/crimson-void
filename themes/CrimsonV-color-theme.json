@@ -14,8 +14,8 @@
 		"breadcrumb.foreground": "#ffffff",
 		"breadcrumb.background": "#202020",
 		"sideBar.foreground": "#D4D4D4", // Цвет текста на боковой панели
-		"button.background": "#212122",
-		"button.foreground": "#bbbbbb",
+		"button.background": "#f44747",
+		"button.foreground": "#ffffff",
 		"button.secondaryBackground": "#212122cc",
 		"button.secondaryForeground": "#bbbbbbbb",
 		"charts.blue": "#9b6bdf",
